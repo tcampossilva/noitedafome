@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Turno da madrugada</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <style>
+            *{
+              margin: 0;
+              padding: 0;
+            }
+            body{
+                display: flexbox;
+            }
+              main{
+                  background-color: #1D0B3B;
+                  height: auto;
+                  width: 1200px;
+                  margin: 15px auto;
+                  border-radius: 15px;
+                  border: solid #F7A923 2px;
+              }
+              #cabeca > img{
+                  margin-left: 350px;
+                  margin-bottom: 80px;
+		          height: 250px;
+                  width: 500px;
+              }
+              #sessao1{
+                  float: left;
+                  border-right: solid 2px #F7A923;
+                  
+              }
+              #sessao1 > h1{
+                  color: #F7A923;
+                  margin: 5px 10px;
+                  display: inline;
+                  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  font-size: 20pt;   
+              }
+              #sessao1 > h2{
+                  color: #FAC82D;
+                  margin: 5px 10px;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  font-size: 16pt;
+              }
+              #sessao1 > p{
+                  color: #fff;
+                  margin: 5px 10px;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 12pt;
+                  text-align: justify;
+              }
+              /*sessao*/
+              #sessao2{
+                  display: inline;
+                  float:right;
+                  margin-right: 5px;
+              }
+              #sessao2 > h1{
+                  color: #F7A923;
+                  margin: 5px 10px;
+                  display: inline;
+                  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  font-size: 20pt;
+              }
+              #sessao2 > h2{
+                  color: #FAC82D;
+                  margin: 5px 10px;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  font-size: 16pt;
+              }
+              #sessao2 > p{
+                  color: #fff;
+                  margin: 5px 10px;
+                  font-size: 12pt;
+                  font-family: Arial, Helvetica, sans-serif;
+                  text-align: justify;
+              }
+             .limpar{
+                clear: both;
+              }
+                #rodape{
+                  border-top: solid 2px #F7A923;
+              }
+              .imgRodape{
+                display: flex;
+                justify-content: center; /* Centraliza horizontalmente */
+                align-items: center;    /* Centraliza verticalmente */
+                margin-top: -120px;
+               }
+              .textoRodape{
+                  display: block;
+                  margin-top: 20px;
+                  margin-bottom: 13px;
+                  width: 300px;
+                  height: 120px;
+                  margin-left: 30px;
+                  
+              }
+              .textoRodape > p{
+                   color: #F7A923;
+                   margin: 15px 8px;
+              }
+              .imgRodape > a{
+                  text-decoration: none;
+                  display: inline;
+              }
+              .imgRodape > a > img{
+                width: 60px;
+                height: 60px;
+                margin: 15px 10px 15px;
+              }
+              .imgRodape > a > img:hover{
+                width: 61px;
+                height: 61px;
+              }
+              </style>
+    </head>
+    <body>
+        <main>
+            <header id="cabeca">
+                <img src="logo.png" alt="Turno da madrugada">
+            </header>
+            <section id="sessao1">
+                <h1>Combos da Madruga</h1>
+                <h2>Combo Virado</h2>
+                <p>Smash da Fome + refri lata R$: 29,90</p>
+                <h2>Combo Rolê</h2>
+                <p>Dog da Madruga + refri lata R$: 23,90</p>
+                <h2>Combo Dupla Fome</h2> 
+                <p>2 Hambúrgueres Smash da Fome + 2 refris (ideal pra dividir) R$: 55,00</p>
+                 <h1>Hambúrgueres</h1>
+                <h2>Smash da Fome</h2>
+                <p>Pão, Maionese, Hambúrguer 100g, Queijo Prato, Alface Tomate, <br />Cheddar, Ovo, Barbecue E Molho Especial da casa Maravilhoso Sabor R$: 23,90</p>
+                <h2>Louco da Madruga</h2>
+                <p> Pão brioche tostado na medida, Hambúrguer duplo 100g cada,<br /> cheddar cremoso, bacon crocante, picles R$: 27,30</p>
+                <h2>Clássico Noturno</h2>
+                <p> Pão, Hambúrguer, alface, tomate, queijo, ketchup, <br />mostarda, maionese especial da casa R$: 20,90</p>
+                <h1> Dog da Madruga </h1>
+                <h2>Hotdog no pão de alho</h2>
+                <p>Pão de alho tostado, Salsicha, queijo derretido, <br />bacon em cubos, ketchup, mostarda e batata palha R$:  18,00</p>
+            </section>
+            <section id="sessao2">
+                <h1>Carne Louca</h1>
+                <h2>Loucurinha</h2>
+                <p> Carne louca + queijo muçarela, servida na baguete de 20cm R$: 27,50</p>
+                <h2>Loucão</h2>
+                <p>Carne louca + cheddar cremoso + picles, servida na baguete de 20cm R$: 28,00</p>
+                <h2>Biruta</h2>
+                <p>Carne louca + vinagrete, servida na baguete de 20cm R$: 26,00</p>
+                <h2>Doidera</h2>
+                <p>Carne louca, servida na baguete de 20cm R$: 25,00</p>
+                <h1>Molhos </h1>
+                <p>Molho especial da casa R$: 5,00</p>
+                <h1>Bebidas</h1>
+                <p>Coca Cola 350ml R$: 6,90</p>
+                <p>Guaraná 350ml R$: 5,90</p>
+                <p>Água R$: 4,00</p>
+                <p>Suco Del Valle 290ml R$: 7,50</p>
+            </section><!--fim da sessao2-->
+            <div class="limpar"></div>
+            <footer id="rodape">
+                <div class="textoRodape">
+               <p>Anota Ai ✍️:️ (11) 99999-9999 </p>
+                <p>Fazemos entregas pelo <strong>99 entregas</strong> &#x1F600;</p>
+                <p> Obrigado pela preferencia!</p>
+                </div>
+                 <div class="imgRodape">
+                    <a href="#"><img src="99-entregas.png"></a>
+                    <a href="#"><img src="ifood.png"></a>
+                    <a href="#"><img src="whatsapp1.png"></a>
+                 </div>    
+            </footer>
+        </main>
+    </body>
+</html>
